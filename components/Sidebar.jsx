@@ -1,14 +1,12 @@
 'use client';
-
 import { useEffect, useState } from 'react';
+import { fetchUsers } from '@lib/api';
 
 export default function Sidebar({ onSelectUser }) {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    const url = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/users`;
-    fetch(url)
-      .then(res => res.json())
+    fetchUsers()
       .then(setUsers)
       .catch(err => console.error('Failed to fetch users', err));
   }, []);

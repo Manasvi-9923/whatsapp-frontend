@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/:path*",
+        "destination": "https://whatsapp-backend-do9l.onrender.com"
+      },
+      {
+        "source": "/webhook",
+        "destination": "https://whatsapp-backend-do9l.onrender.com/webhook"
+      }
+    ]
+  }

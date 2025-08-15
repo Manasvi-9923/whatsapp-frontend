@@ -108,6 +108,11 @@ To test the webhook:
  Backend: Render
  Frontend: Vercel
 
+### Public Deployment Links
+
+- Frontend (submit this): [https://whatsapp-frontend-lilac.vercel.app](https://whatsapp-frontend-lilac.vercel.app)
+- Backend API: [https://whatsapp-backend-do9l.onrender.com](https://whatsapp-backend-do9l.onrender.com)
+
 ## 📌 Author
   Built by Manasvi Shewale for RapidQuest Full Stack Developer Task
   Submission Date: 15 August 2025
